@@ -1,20 +1,97 @@
-const units = {
-    {
-    name: "Basic Cat",
-    
-    }
-}
-
-export{units}; hi
-// Another array of battle cats units
-var battleCats2 = [
+var units = [
   {
-    name: "Gold Cat", // The name of the unit
-    evolved: "Gold Macho Cat", // The name of the evolved form
-    true: null, // The name of the true form (null if none)
-    target: "Single", // The type of targetting
-    typeTarget: "None", // The type of enemy that the unit is effective against
-    class: "Rare" // The rarity class
+    name: "Basic Cat",
+    evolved: "Macho Cat", 
+    true: "Mohawk Cat", 
+    target: "Single",
+    typeTarget: "None",
+    class: "Normal"
+  },
+  {
+    name: "Tank Cat",
+    evolved: "Wall Cat",
+    true: "Eraser Cat",
+    target: "Single",
+    typeTarget: "None",
+    class: "Normal"
+  },
+  {
+    name: "Axe Cat",
+    evolved: "Brave Cat",
+    true: "Dark Cat",
+    target: "Single",
+    typeTarget: "Red",
+    class: "Normal"
+  },
+  {
+    name: "Gross Cat",
+    evolved: "Sexy Legs Cat",
+    true: "Macho Legs Cat",
+    target: "Area",
+    typeTarget: "Alien",
+    class: "Normal"
+  },
+  {
+    name: "Cow Cat",
+    evolved: "Giraffe Cat",
+    true: "Lion Cat",
+    target: "Single",
+    typeTarget: "None",
+    class: "Normal"
+  },
+  {
+    name: "Bird Cat",
+    evolved: "UFO Cat",
+    true: "The Flying Cat",
+    target: "Area",
+    typeTarget: "Angel",
+    class: "Normal"
+  },
+  {
+    name: "Fish Cat",
+    evolved: "Whale Cat",
+    true: "Island Cat",
+    target: "Area",
+    typeTarget: "Red",
+    class: "Normal"
+  },
+  {
+    name: "Lizard Cat",
+    evolved: "Dragon Cat",
+    true: "King Dragon Cat",
+    target: "Area",
+    typeTarget: "None",
+    class: "Normal"
+  },
+  {
+    name: "Titan Cat",
+    evolved: "Mythical Titan Cat",
+    true: "Jamiera Cat",
+    target: "Area",
+    typeTarget: ["Aku", "Angel", "Alien", "Black", "Floating", "Red", "Relic", "Traitless", "Zombie"],  
+    class: "Normal"
+  },
+  {
+    name: "Bahamut Cat",
+    evolved: "Crazed Bahamut Cat",
+    true: "Awakened Bahamut Cat",
+    target: "Single",
+    class: "Special"
+  },
+  {
+    name: "Baby Cat",
+    evolved: "Adult Cat",
+    true: "True Valkyrie Cat",
+    target: "Area",
+    class: "Uber Rare"
+  }
+  {
+    name: "Gold Cat", 
+    evolved: "Gold Macho Cat", 
+    true: null,
+    target: "Single", 
+    typeTarget: "None", 
+    class: "Rare"
   },
   {
     name: "Hip Hop Cat",
@@ -37,87 +114,7 @@ var battleCats2 = [
     evolved: "Gaia the Supreme",
     true: null,
     target: "Area",
-    typeTarget: "Alien/Zombie",
+    typeTarget: ["Alien", "Zombie"],
     class: "Legend Rare"
-  }
-];
-
-var battleCats = [
-  {
-    name: "Basic Cat", // The name of the unit
-    evolved: "Macho Cat", // The name of the evolved form
-    true: "Mohawk Cat", // The name of the true form
-    target: "Single", // The type of targetting
-    class: "Normal" // The rarity class
-  },
-  {
-    name: "Tank Cat",
-    evolved: "Wall Cat",
-    true: "Eraser Cat",
-    target: "Single",
-    class: "Normal"
-  },
-  {
-    name: "Axe Cat",
-    evolved: "Brave Cat",
-    true: "Dark Cat",
-    target: "Single",
-    class: "Normal"
-  },
-  {
-    name: "Gross Cat",
-    evolved: "Sexy Legs Cat",
-    true: "Macho Legs Cat",
-    target: "Area",
-    class: "Normal"
-  },
-  {
-    name: "Cow Cat",
-    evolved: "Giraffe Cat",
-    true: "Lion Cat",
-    target: "Single",
-    class: "Normal"
-  },
-  {
-    name: "Bird Cat",
-    evolved: "UFO Cat",
-    true: "The Flying Cat",
-    target: "Area",
-    class: "Normal"
-  },
-  {
-    name: "Fish Cat",
-    evolved: "Whale Cat",
-    true: "Island Cat",
-    target: "Area",
-    class: "Normal"
-  },
-  {
-    name: "Lizard Cat",
-    evolved: "Dragon Cat",
-    true: "King Dragon Cat",
-    target: "Area",
-    class: "Normal"
-  },
-  {
-    name: "Titan Cat",
-    evolved: "Mythical Titan Cat",
-    true: "Jamiera Cat",
-    target: "Area",
-    class: "Normal"
-  },
-  {
-    name: "Bahamut Cat",
-    evolved: "Crazed Bahamut Cat",
-    true: "Awakened Bahamut Cat",
-    target: "Single",
-    class: "Special"
-  },
-  {
-    name: "Baby Cat",
-    evolved: "Adult Cat",
-    true: "True Valkyrie Cat",
-    target: "Area",
-    class: "Uber Rare"
   }
 ];
