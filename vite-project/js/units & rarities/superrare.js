@@ -1,0 +1,66 @@
+const superRare = [
+  {
+    name: "Hip Hop Cat",
+    type: ["White"],
+    attack: "Area",
+    evolved: "Dancer Cat",
+    true: "Breakdancer Cat",
+  },
+  {
+    name: "Apple Cat",
+    type: ["Red"],
+    attack: "Area",
+    evolved: "Apple Cat Mk II",
+    true: "Apple Cat Mk III",
+  },
+  {
+    name: "Sushi Cat",
+    type: ["Alien"],
+    attack: "Area",
+    evolved: "Sashimi Cat",
+    true: "Roe Cat",
+  },
+  {
+    name: "Bodhisattva Cat",
+    type: ["Angel"],
+    attack: "Area",
+    evolved: "Avalokitesvara Cat",
+    true: "Megaphrodite",
+  },
+  {
+    name: "Delinquent Cat",
+    type: ["Floating"],
+    attack: "Area",
+    evolved: "Angry Delinquent Cat",
+    true: "Dark Lazer",
+  },
+  {
+    name: "Bath Cat",
+    type: ["Red", "Black"],
+    attack: "Area",
+    evolved: "Sexy Bath Cat",
+    true: "Hyakutaro",
+  },
+  {
+    name: "Juliet Cat",
+    type: ["White"],
+    attack: "Area",
+    evolved: "Mademoiselle Cat",
+    true: "Cataur",
+  },
+  {
+    name: "Weightlifter Cat",
+    type: ["Metal"],
+    attack: "Single",
+    evolved: "Ring Girl Cat",
+    true: "Iron Claw",
+  },
+  {
+    name: "Figure Skating Cats",
+    type: ["White"],
+    attack: "Area",
+    evolved: "Pairs Figure Skating Cats",
+    true: "Dreamy Figure Skating Cats",
+  },
+];
+export{superRare}

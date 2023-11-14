@@ -1,0 +1,66 @@
+const uberRare = [
+  {
+    name: "Baby Cat",
+    type: ["Metal"],
+    attack: "Area",
+    evolved: "Adult Cat",
+    true: "Evil Cat",
+  },
+  {
+    name: "Kuu",
+    type: ["Alien"],
+    attack: "Area",
+    evolved: "Kuu Type γ",
+    true: "Kuu Type Ω",
+  },
+  {
+    name: "Thundia",
+    type: ["Red"],
+    attack: "Area",
+    evolved: "Thundia Type β",
+    true: "Thundia Type χ",
+  },
+  {
+    name: "Kai",
+    type: ["Black"],
+    attack: "Area",
+    evolved: "Kai Type μ",
+    true: "Kai Type π",
+  },
+  {
+    name: "Coppermine",
+    type: ["Floating"],
+    attack: "Area",
+    evolved: "Coppermine Type α",
+    true: "Coppermine Type ω",
+  },
+  {
+    name: "Kalisa",
+    type: ["Angel"],
+    attack: "Single",
+    evolved: "Kalisa Type χ",
+    true: "Kalisa Type Ω",
+  },
+  {
+    name: "White Rabbit",
+    type: ["Red", "Black", "Metal"],
+    attack: "Area",
+    evolved: "Black Cat",
+    true: "The Black Cat",
+  },
+  {
+    name: "Warlock and Pierre",
+    type: ["Floating", "Alien"],
+    attack: "Area",
+    evolved: "Dark Merchant Babil",
+    true: "Titi Babil",
+  },
+  {
+    name: "Cat Machine",
+    type: ["White"],
+    attack: "Area",
+    evolved: "Cat Machine Mk 2",
+    true: "Cat Machine Mk 3",
+  },
+];
+export{uberRare}

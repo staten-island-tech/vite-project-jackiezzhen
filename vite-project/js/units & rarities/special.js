@@ -1,0 +1,73 @@
+const specialCats = [
+  {
+    name: "Ninja Cat",
+    type: ["Red"],
+    attack: "Single",
+    evolved: "Ninja Frog Cat",
+    true: "Flying Ninja Cat",
+  },
+  {
+    name: "Sumo Cat",
+    type: ["White"],
+    attack: "Single",
+    evolved: "Madame Sumo",
+    true: "Riceball Cat",
+  },
+  {
+    name: "Samurai Cat",
+    type: ["Black"],
+    attack: "Single",
+    evolved: "Sword Master Cat",
+    true: "Elemental Duelist Cat",
+  },
+  {
+    name: "Zombie Cat",
+    type: ["Zombie"],
+    attack: "Single",
+    evolved: "Necromancer Cat",
+    true: "Zombie King Cat",
+  },
+  {
+    name: "Cats in a Box",
+    type: ["White"],
+    attack: "Single",
+    evolved: "Box Cats",
+    true: "Heavy Assault C.A.T.",
+  },
+  {
+    name: "Boogie Cat",
+    type: ["White"],
+    attack: "Single",
+    evolved: "Samba Cat",
+    true: "Gato Amigo",
+  },
+  {
+    name: "Skirt Cat",
+    type: ["White"],
+    attack: "Single",
+    evolved: "Panties Cat",
+    true: "The White Rabbit",
+  },
+  {
+    name: "Mr.",
+    type: ["White"],
+    attack: "Single",
+    evolved: "Hyper Mr.",
+    true: "Ultimate Bondage Cat",
+  },
+  {
+    name: "Bondage Cat",
+    type: ["White"],
+    attack: "Single",
+    evolved: "Dom Cat",
+    true: "Masochist Cat",
+  },
+  {
+    name: "Tricycle Cat",
+    type: ["Metal"],
+    attack: "Single",
+    evolved: "Bicycle Cat",
+    true: "Unicycle Cat",
+  },
+];
+export{specialCats}

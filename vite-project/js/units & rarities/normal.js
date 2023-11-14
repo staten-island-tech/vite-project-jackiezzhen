@@ -1,0 +1,66 @@
+const normalCats = [
+  {
+    name: "Cat",
+    type: ["White"],
+    attack: "Single",
+    evolved: "Macho Cat",
+    true: "Eraser Cat",
+  },
+  {
+    name: "Tank Cat",
+    type: ["White"],
+    attack: "Single",
+    evolved: "Wall Cat",
+    true: "Mohawk Cat",
+  },
+  {
+    name: "Axe Cat",
+    type: ["Red"],
+    attack: "Single",
+    evolved: "Brave Cat",
+    true: "Dark Cat",
+  },
+  {
+    name: "Gross Cat",
+    type: ["Floating"],
+    attack: "Single",
+    evolved: "Sexy Legs Cat",
+    true: "Macho Legs Cat",
+  },
+  {
+    name: "Cow Cat",
+    type: ["White"],
+    attack: "Single",
+    evolved: "Giraffe Cat",
+    true: "Lion Cat",
+  },
+  {
+    name: "Bird Cat",
+    type: ["Black"],
+    attack: "Single",
+    evolved: "UFO Cat",
+    true: "The Flying Cat",
+  },
+  {
+    name: "Fish Cat",
+    type: ["Red", "Alien"],
+    attack: "Single",
+    evolved: "Whale Cat",
+    true: "Island Cat",
+  },
+  {
+    name: "Lizard Cat",
+    type: ["Angel"],
+    attack: "Single",
+    evolved: "Dragon Cat",
+    true: "King Dragon Cat",
+  },
+  {
+    name: "Titan Cat",
+    type: ["White"],
+    attack: "Area",
+    evolved: "Mythical Titan Cat",
+    true: "Jamiera Cat",
+  },
+];
+export{normalCats}
