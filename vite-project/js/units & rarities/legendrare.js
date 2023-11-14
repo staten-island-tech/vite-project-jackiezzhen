@@ -6,6 +6,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Shin Akuma",
       true: "Oni Akuma",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Black Zeus
     {
@@ -14,6 +17,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Black Zeus Mk II",
       true: "Black Zeus Mk III",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Doctor Heaven
     {
@@ -22,6 +28,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Doctor Heaven CC",
       true: "Doctor Heaven CC Mk II",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Emperor Cat
     {
@@ -30,6 +39,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Emperor Cat CC",
       true: "Emperor Cat CC Mk II",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Gaia the Creator
     {
@@ -38,6 +50,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Gaia the Supreme",
       true: "Gaia the Merciful",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Headmistress Jeanne
     {
@@ -46,6 +61,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Headmistress Jeanne CC",
       true: "Headmistress Jeanne CC Mk II",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // High Lord Babel
     {
@@ -54,6 +72,9 @@ var legendRares = [
       attack: "Area",
       evolved: "High Lord Babel CC",
       true: "High Lord Babel CC Mk II",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Kyosaka Nanaho
     {
@@ -62,6 +83,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Kyosaka Nanaho & Cat",
       true: "Kyosaka Nanaho & Cat CC",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Legeluga
     {
@@ -70,6 +94,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Legelan Pasalan",
       true: "Awakened Legeluga",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Lumina
     {
@@ -78,6 +105,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Luminalia",
       true: "Lumina-Nyanko",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Mighty Kristul Muu
     {
@@ -86,6 +116,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Mighty Glass Cat",
       true: "Mighty Kristul Nurse",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Mushashi Miyamoto
     {
@@ -94,6 +127,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Legendary Mushashi",
       true: "Awakened Mushashi",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Ushiwakamaru
     {
@@ -102,6 +138,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Ushiwakamaru CC",
       true: "Ushiwakamaru CC Mk II",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
     // Wonder MOMOCO
     {
@@ -110,6 +149,9 @@ var legendRares = [
       attack: "Area",
       evolved: "Wonder MOMOCO CC",
       true: "Wonder MOMOCO CC Mk II",
+      nameUrl: "",
+      evolvedUrl: "",
+      trueUrl: "",
     },
   ];
   export{legendRares}
