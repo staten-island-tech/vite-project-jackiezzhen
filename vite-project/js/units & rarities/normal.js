@@ -1,7 +1,7 @@
 const normalCats = [
   {
     name: "Cat",
-    type: null,
+    type: [null],
     attack: "Single",
     evolved: "Macho Cat",
     true: "Mohawk Cat",
@@ -11,7 +11,7 @@ const normalCats = [
   },
   {
     name: "Tank Cat",
-    type: null,
+    type: [null],
     attack: "Area",
     evolved: "Wall Cat",
     true: "Eraser Cat",
@@ -41,7 +41,7 @@ const normalCats = [
   },
   {
     name: "Cow Cat",
-    type: ["White"],
+    type: [null],
     attack: "Single",
     evolved: "Giraffe Cat",
     true: "Lion Cat",
@@ -51,17 +51,17 @@ const normalCats = [
   },
   {
     name: "Bird Cat",
-    type: ["Black"],
-    attack: "Ares",
-    evolved: "The Flying Cat",
-    true: "UFO Cat",
+    type: ["Angel"],
+    attack: "Area",
+    evolved: "UFO Cat",
+    true: "The Flying Cat",
     nameUrl: "",
     evolvedUrl: "",
     trueUrl: "",
   },
   {
     name: "Fish Cat",
-    type: ["Red", "Alien"],
+    type: ["Red"],
     attack: "Single",
     evolved: "Whale Cat",
     true: "Island Cat",
@@ -81,7 +81,7 @@ const normalCats = [
   },
   {
     name: "Titan Cat",
-    type: ["White"],
+    type: ["Red", "Floating", "Black", "Angel", "Alien", "Zombie", "Aku", "Relic", "Traitless"],
     attack: "Area",
     evolved: "Mythical Titan Cat",
     true: "Jamiera Cat",

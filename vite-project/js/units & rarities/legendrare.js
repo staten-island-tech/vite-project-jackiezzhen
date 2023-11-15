@@ -1,4 +1,4 @@
-var legendRares = [
+const legendRare = [
     // Akuma
     {
       name: "Akuma",
@@ -154,4 +154,4 @@ var legendRares = [
       trueUrl: "",
     },
   ];
-  export{legendRares}
+  export{legendRare}
