@@ -1,9 +1,8 @@
-import { normalCats } from './units & rarities/normal';
 import{rarity} from './units & rarities/rarityfile'
-
+let normalbtn = document.querySelector("normalCats");
 function normalCatsfilter() {
-    let normalbutton = document.querySelectorAll(rarity.normalCats);
-    normalbutton.addEventListener("click", )
+    
+    normalbtn.addEventListener("click", )
     removeButtons.forEach((btn) => {
       btn.addEventListener("click", remove);
     });
@@ -31,5 +30,4 @@ function legendCatsfilter() {
 function legendRarefilter() {
 
 }
-const rarityfilter = [normalCatsfilter, specialCatsfilter, rareCatsfilter, superRarefilter, uberRarefilter, legendCatsfilter, legendRarefilter];
-export {rarityfilter}
+export{normalCatsfilter, specialCatsfilter, rareCatsfilter, superRarefilter, uberRarefilter, legendCatsfilter, legendRarefilter}
