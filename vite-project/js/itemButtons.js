@@ -5,17 +5,22 @@ const typeButtons = document.querySelector('.targetTypes');
 const container = document.querySelector('.container');
 
 // Rarity Button
-rarityButtons.forEach(button => {
+function rbutton(){
+rarityButtons.forEach((button) => {
   button.addEventListener('click', () => {
     button.classList.toggle('active');
     updateCards();
   });
 });
-
+}
 // Type Button
-typeButtons.forEach(button => {
+function tbutton(){
+typeButtons.forEach((button) => {
   button.addEventListener('click', () => {
     button.classList.toggle('active');
     updateCards();
   });
 });
+}
+rbutton()
+tbutton()
