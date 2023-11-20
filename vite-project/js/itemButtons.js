@@ -1,26 +1,16 @@
-import {allCats} from './allCats.js';
+import { allCats } from "./allCats.js";
+import { DOMselectors, catCard } from "./dom.js";
 
-const rarityButtons = document.querySelector('.rarityButtons');
-const typeButtons = document.querySelector('.targetTypes');
-const container = document.querySelector('.container');
+document.getElementById("normalCats").addEventListener("click", () => {
+  const normalCats = allCats.filter((cat) =>
+    cat.rarity.includes("Normal Cats")
+  );
+  console.log(normalCats);
+  while (DOMselectors.container.firstChild) {
+    DOMselectors.container.removeChild(DOMselectors.container.firstChild);
+  }
 
-// Rarity Button
-function rbutton(){
-rarityButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    button.classList.toggle('active');
-    updateCards();
-  });
+  const normalCatsHTML = normalCats.map((cat) => catCard(cat));
+  console.log(normalCatsHTML)
+  DOMselectors.container.insertAdjacentHTML("beforeend", normalCatsHTML.join(''));
 });
-}
-// Type Button
-function tbutton(){
-typeButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    button.classList.toggle('active');
-    updateCards();
-  });
-});
-}
-rbutton()
-tbutton()
