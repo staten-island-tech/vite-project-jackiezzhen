@@ -1,17 +1,23 @@
 import { allCats } from "./allCats.js";
 import { DOMselectors, catCard } from "./dom.js";
+const DOMselectors = {
+  normal: document.getElementById("normalCats"),
+  special: document.getElementById("specialCats"),
+  rare: document.getElementById("rareCats"),
+  superRare: document.getElementById("superRare"),
+  uberRare: document.getElementById("uberRare"),
+  legend: document.getElementById("legendCats"),
+  legendRare: document.getElementById("legendRare"),
+}
 
 // Normal Cats Filter
-document.getElementById("normalCats").addEventListener("click", () => {
+normal.addEventListener("click", () => {
   const normalCats = allCats.filter((cat) =>
     cat.rarity.includes("Normal Cats")
   );
-  while (DOMselectors.container.firstChild) {
-    DOMselectors.container.removeChild(DOMselectors.container.firstChild);
-  }
-
+  console.log(normalCats)
+  DOMselectors.container.textContent =""
   const normalCatsHTML = normalCats.map((cat) => catCard(cat));
-
   DOMselectors.container.insertAdjacentHTML(
     "beforeend",
     normalCatsHTML.join("")
@@ -19,37 +25,34 @@ document.getElementById("normalCats").addEventListener("click", () => {
 });
 
 // Special Cats Filter
-document.getElementById("specialCats").addEventListener("click", () => {
+special.addEventListener("click", () => {
   const specialCats = allCats.filter((cat) =>
     cat.rarity.includes("Special Cats")
   );
-  while (DOMselectors.container.firstChild) {
-    DOMselectors.container.removeChild(DOMselectors.container.firstChild);
-  }
-
-  const specialCatsHTML = specialCats.map((cat) => catCard(cat));
+  DOMselectors.container.textContent =""
+  const specialHTML = specialCats.map((cat) => catCard(cat));
   DOMselectors.container.insertAdjacentHTML(
     "beforeend",
-    specialCatsHTML.join("")
+    specialHTML.join("")
   );
 });
 
 // Rare Cats Filter
-document.getElementById("rareCats").addEventListener("click", () => {
+rare.addEventListener("click", () => {
   const rareCats = allCats.filter((cat) => cat.rarity.includes("Rare Cats"));
   while (DOMselectors.container.firstChild) {
     DOMselectors.container.removeChild(DOMselectors.container.firstChild);
   }
 
-  const rareCatsHTML = rareCats.map((cat) => catCard(cat));
+  const rareHTML = rareCats.map((cat) => catCard(cat));
   DOMselectors.container.insertAdjacentHTML(
     "beforeend",
-    rareCatsHTML.join("")
+    rareHTML.join("")
   );
 });
 
 //Super Rare Cats Filter
-document.getElementById("normalCats").addEventListener("click", () => {
+superRare.addEventListener("click", () => {
   const superRare = allCats.filter((cat) =>
     cat.rarity.includes("Normal Cats")
   );
@@ -61,29 +64,29 @@ document.getElementById("normalCats").addEventListener("click", () => {
 
   DOMselectors.container.insertAdjacentHTML(
     "beforeend",
-    normalCatsHTML.join("")
+    superRareHTML.join("")
   );
 });
 
 // Uber Super Rare Filter
-document.getElementById("normalCats").addEventListener("click", () => {
-  const normalCats = allCats.filter((cat) =>
-    cat.rarity.includes("Normal Cats")
+uberRare.addEventListener("click", () => {
+  const uberRareCats = allCats.filter((cat) =>
+    cat.rarity.includes("Uber Super Rare")
   );
   while (DOMselectors.container.firstChild) {
     DOMselectors.container.removeChild(DOMselectors.container.firstChild);
   }
 
-  const normalCatsHTML = normalCats.map((cat) => catCard(cat));
+  const uberRareHTML = uberRareCats.map((cat) => catCard(cat));
 
   DOMselectors.container.insertAdjacentHTML(
     "beforeend",
-    normalCatsHTML.join("")
+    uberRareHTML.join("")
   );
 });
 
 // Legend Cats Filter
-document.getElementById("legendCats").addEventListener("click", () => {
+legend.addEventListener("click", () => {
   const normalCats = allCats.filter((cat) =>
     cat.rarity.includes("Legend Cats")
   );
@@ -100,7 +103,7 @@ document.getElementById("legendCats").addEventListener("click", () => {
 });
 
 // Legend Rare Filter
-document.getElementById("normalCats").addEventListener("click", () => {
+legendRare.addEventListener("click", () => {
   const normalCats = allCats.filter((cat) =>
     cat.rarity.includes("Legend Rare")
   );
