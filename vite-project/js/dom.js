@@ -20,4 +20,4 @@ function catCard(cat) {
 
 allCats.forEach((cat) => catCard(cat));
 
-export{DOMselectors, catCard};
+export{catCard};
