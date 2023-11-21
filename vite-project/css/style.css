@@ -50,10 +50,12 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
+  place-items: center;
 }
 
 .newcard {
+  width: 5vh;
+  height: 0 auto;
   border-radius: 10px;
   border: 2px solid #eee;
   background-color: #fff;

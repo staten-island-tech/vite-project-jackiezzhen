@@ -1,5 +1,5 @@
 import { allCats } from "./allCats.js";
-import { DOMselectors, catCard } from "./dom.js";
+import { catCard } from "./dom.js";
 
 // Traitless Filter
 document.getElementById("btnTraitless").addEventListener("click", () => {

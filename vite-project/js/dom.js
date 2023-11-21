@@ -1,9 +1,5 @@
 import { allCats } from './allCats.js';
 
-const DOMselectors = {
-  container: document.querySelector('.container'),
-};
-
 function catCard(cat) {
   const cardHTML = `
     <div class="newcard">
@@ -15,7 +11,7 @@ function catCard(cat) {
       </div>
     </div>`;
   
-  DOMselectors.container.insertAdjacentHTML('beforeend', cardHTML);
+  document.querySelector('.container').insertAdjacentHTML('beforeend', cardHTML);
 }
 
 allCats.forEach((cat) => catCard(cat));
