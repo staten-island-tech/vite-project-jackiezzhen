@@ -1,7 +1,6 @@
-import { allCats } from "./allCats.js";
+import {allCats} from "./allCats.js";
 import {catCard} from "./dom.js";
 const DOMselectors = {
-  container: document.querySelector('.container'),
   normal: document.getElementById("normalCats"),
   special: document.getElementById("specialCats"),
   rare: document.getElementById("rareCats"),
@@ -10,15 +9,9 @@ const DOMselectors = {
   legend: document.getElementById("legendCats"),
   legendRare: document.getElementById("legendRare"),
 }
-function (){
-normal : DOMselectors.normal,
-
-return {
-  normal: 
-}
 
 // Normal Cats Filter
-  normal.addEventListener("click", function() {
+normal.addEventListener("click", () => {
   const normalCats = allCats.filter((cat) =>
     cat.rarity.includes("Normal Cats")
   );
@@ -32,7 +25,8 @@ return {
 });
 
 // Special Cats Filter
-special.addEventListener("click", function() {
+
+special.addEventListener("click", () => {
   const specialCats = allCats.filter((cat) =>
     cat.rarity.includes("Special Cats")
   );
@@ -125,3 +119,4 @@ legendRare.addEventListener("click", () => {
     legendRareHTML.join("")
   );
 });
+s
