@@ -31,7 +31,7 @@ const DOMSelectors = {
     cat.rarity.includes("Special Cats")
   );
   DOMSelectors.container.textContent =""
-  const specialHTML = specialCats.map((cat) +=> catCard(cat));
+  const specialHTML = specialCats.map((cat) => catCard(cat));
   DOMSelectors.container.insertAdjacentHTML(
     "beforeend",
     specialHTML.join("")
@@ -41,9 +41,7 @@ const DOMSelectors = {
 // Rare Cats Filter
 DOMSelectors.rare.addEventListener("click", () => {
   const rareCats = allCats.filter((cat) => cat.rarity.includes("Rare Cats"));
-  while (DOMSelectors.container.firstChild) {
-    DOMSelectors.container.removeChild(DOMSelectors.container.firstChild);
-  }
+  DOMSelectors.container.textContent =""
 
   const rareHTML = rareCats.map((cat) => catCard(cat));
   DOMSelectors.container.insertAdjacentHTML(
@@ -57,11 +55,9 @@ DOMSelectors.superRare.addEventListener("click", () => {
   const superRare = allCats.filter((cat) =>
     cat.rarity.includes("Normal Cats")
   );
-  while (DOMSelectors.container.firstChild) {
-    DOMSelectors.container.removeChild(DOMSelectors.container.firstChild);
-  }
+  DOMSelectors.container.textContent =""
 
-  const superRareHTML = normalCats.map((cat) => catCard(cat));
+  const superRareHTML = superRare.map((cat) => catCard(cat));
 
   DOMSelectors.container.insertAdjacentHTML(
     "beforeend",
@@ -74,9 +70,7 @@ DOMSelectors.superRare.addEventListener("click", () => {
   const uberRareCats = allCats.filter((cat) =>
     cat.rarity.includes("Uber Super Rare")
   );
-  while (DOMSelectors.container.firstChild) {
-    DOMSelectors.container.removeChild(DOMSelectors.container.firstChild);
-  }
+  DOMSelectors.container.textContent =""
 
   const uberRareHTML = uberRareCats.map((cat) => catCard(cat));
 
@@ -88,12 +82,10 @@ DOMSelectors.superRare.addEventListener("click", () => {
 
 // Legend Cats Filter
   DOMSelectors.legend.addEventListener("click", () => {
-  const normalCats = allCats.filter((cat) =>
+  const legendCats = allCats.filter((cat) =>
     cat.rarity.includes("Legend Cats")
   );
-  while (DOMSelectors.container.firstChild) {
-    DOMSelectors.container.removeChild(DOMSelectors.container.firstChild);
-  }
+  DOMSelectors.container.textContent =""
 
   const legendCatsHTML = legendCats.map((cat) => catCard(cat));
 
@@ -108,9 +100,7 @@ DOMSelectors.superRare.addEventListener("click", () => {
   const normalCats = allCats.filter((cat) =>
     cat.rarity.includes("Legend Rare")
   );
-  while (DOMSelectors.container.firstChild) {
-    DOMSelectors.container.removeChild(DOMSelectors.container.firstChild);
-  }
+  DOMSelectors.container.textContent =""
 
   const legendRareHTML = legendRare.map((cat) => catCard(cat));
 

@@ -28,6 +28,7 @@ button {
 }
 button:hover {
   border-color: #646cff;
+  border-width: 0.2vh;
 }
 .allbtn {
   position: fixed;
@@ -54,21 +55,21 @@ button:hover {
 }
 
 .newcard {
-  width: 5vh;
+  width: 20vh;
   height: 0 auto;
   border-radius: 10px;
   border: 2px solid #eee;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  place-items: center;
   padding: 1vh;
   margin: 1vh;
 }
 .catImg {
-  object-fit: contain;
-  height: auto;
-  margin: 1vh;
+  object-fit: scale-down;
+  border-color:#0f0f0f;
+  max-width: 100%;
 }
 .imgbtn{
   place-items: center;

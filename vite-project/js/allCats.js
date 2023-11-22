@@ -1,3 +1,4 @@
+
 const allCats = [
   //  Normal Cats
   {
@@ -7,9 +8,9 @@ const allCats = [
     type: null,
     attack: "Single",
     rarity: ["Normal Cats"],
-    baseUrl: "",
-    evolvedUrl: "",
-    trueUrl: "",
+    baseUrl: "Cat",
+    evolvedUrl: "Macho_cat",
+    trueUrl: "Mohawk_cat",
   },
   {
     base: "Tank Cat",
@@ -18,9 +19,9 @@ const allCats = [
     type: null,
     attack: "Area",
     rarity: ["Normal Cats"],
-    baseUrl: "",
-    evolvedUrl: "",
-    trueUrl: "",
+    baseUrl: "Tank_cat",
+    evolvedUrl: "Wall_cat",
+    trueUrl: "Eraser_cat",
   },
   {
     base: "Axe Cat",
@@ -29,9 +30,9 @@ const allCats = [
     type: ["Red"],
     attack: "Single",
     rarity: ["Normal Cats"],
-    baseUrl: "",
-    evolvedUrl: "",
-    trueUrl: "",
+    baseUrl: "Axe_cat",
+    evolvedUrl: "Brave_cat",
+    trueUrl: "Dark_cat",
   },
   {
     base: "Gross Cat",
@@ -40,9 +41,9 @@ const allCats = [
     type: ["Floating"],
     attack: "Single",
     rarity: ["Normal Cats"],
-    baseUrl: "",
-    evolvedUrl: "",
-    trueUrl: "",
+    baseUrl: "Gross_cat",
+    evolvedUrl: "Sexy_legs_cat",
+    trueUrl: "Macho_legs_cat",
   },
   {
     base: "Cow Cat",
@@ -51,9 +52,9 @@ const allCats = [
     type: null,
     attack: "Single",
     rarity: ["Normal Cats"],
-    baseUrl: "",
-    evolvedUrl: "",
-    trueUrl: "",
+    baseUrl: "Cow_cat",
+    evolvedUrl: "Giraffe_cat",
+    trueUrl: "Lion_cat",
   },
   {
     base: "Bird Cat",
@@ -62,9 +63,9 @@ const allCats = [
     type: ["Angel"],
     attack: "Area",
     rarity: ["Normal Cats"],
-    baseUrl: "",
-    evolvedUrl: "",
-    trueUrl: "",
+    baseUrl: "Bird_cat",
+    evolvedUrl: "UFO_cat",
+    trueUrl: "The_flying_cat",
   },
   {
     base: "Fish Cat",
@@ -73,9 +74,9 @@ const allCats = [
     type: ["Red"],
     attack: "Single",
     rarity: ["Normal Cats"],
-    baseUrl: "",
-    evolvedUrl: "",
-    trueUrl: "",
+    baseUrl: "Fish_cat",
+    evolvedUrl: "Whale_cat",
+    trueUrl: "Island_cat",
   },
   {
     base: "Lizard Cat",
@@ -84,9 +85,9 @@ const allCats = [
     type: ["Angel"],
     attack: "Single",
     rarity: ["Normal Cats"],
-    baseUrl: "",
-    evolvedUrl: "",
-    trueUrl: "",
+    baseUrl: "Lizard_cat",
+    evolvedUrl: "Dragon_cat",
+    trueUrl: "King_dragon_cat",
   },
   {
     base: "Titan Cat",
@@ -105,9 +106,9 @@ const allCats = [
     ],
     attack: "Area",
     rarity: ["Normal Cats"],
-    baseUrl: "",
-    evolvedUrl: "",
-    trueUrl: "",
+    baseUrl: "Titan_cat",
+    evolvedUrl: "Mythical_titan_cat",
+    trueUrl: "Jamiera_cat",
   },
   //  Legend Cats/Special Cats
   {
@@ -118,11 +119,11 @@ const allCats = [
     attack: "Area",
     rarity: ["Legend Cats, Special Cats"],
     baseUrl:
-      "https://static.wikia.nocookie.net/battle-cats/images/e/e6/024_1.png/revision/latest/scale-to-width-down/300?cb=20150601223845",
+      "Valkyrie_cat",
     evolvedUrl:
-      "https://static.wikia.nocookie.net/battle-cats/images/e/e7/024_2.png/revision/latest/scale-to-width-down/300?cb=20150601223918",
+      "True_valkyrie_cat",
     trueUrl:
-      "https://static.wikia.nocookie.net/battle-cats/images/4/46/024_3.png/revision/latest/scale-to-width-down/300?cb=20160531194858",
+      "",
   },
   {
     base: "Bahamut Cat",
