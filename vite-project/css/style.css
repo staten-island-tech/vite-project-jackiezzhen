@@ -16,8 +16,8 @@ body, html {
 /* button */
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  border: 0.01vh solid transparent;
+  padding: 1vh;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
@@ -25,9 +25,10 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   justify-content: center;
+  margin: 0.07vh;
 }
-button:hover {
-  border-color: #646cff;
+.allbtn:hover {
+  border-color: red;
   border-width: 0.2vh;
 }
 .allbtn {
@@ -35,6 +36,7 @@ button:hover {
   top:2vh;
   background-color:#0f0f0f;
   z-index: 1;
+  border-radius: 1.2vh;
 }
 .rarityButtons, .targetTypes {
   margin: 1vh;
@@ -59,32 +61,33 @@ button:hover {
   height: 0 auto;
   border-radius: 10px;
   border: 2px solid #eee;
-  background-color: #fff;
+  background-color: #EEA;
   display: flex;
   flex-direction: column;
   place-items: center;
-  padding: 1vh;
+  padding: 0.3vh;
   margin: 1vh;
 }
 .catImg {
   object-fit: scale-down;
-  border-color:#0f0f0f;
-  max-width: 100%;
+  max-width: 96%;
+  margin: 0.4vh;
 }
 .imgbtn{
   place-items: center;
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 0.5vh;
 }
-.base-button,
-.evolved-button,
-.true-button{
+#basebutton,
+#evolvedbutton,
+#truebutton{
   width: 100%;
+  bottom: 0;;
 }
 .theme{
   position: fixed;
   left: 1vh;
   top: 1vh;
+  z-index: 1;
 }
