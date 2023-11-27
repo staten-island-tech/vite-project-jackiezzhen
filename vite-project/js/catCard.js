@@ -9,20 +9,48 @@ function catCard(cat) {
         <button id="evolvedbutton">${cat.evolved}</button>
         ${cat.true != null ? `<button id="truebutton">${cat.true}</button>` : ''}
       </div>
-    </div>
+    
     
     <style>
       #evolvedImg, #trueImg {
         display: none;
       }
     </style>
+    
+    <script>
+    const imgDOM = {
+      baseImg: document.getElementById("baseImg");
+      evolvedImg: document.getElementById("evolvedImg");
+      trueImg: document.getElementById("trueImg");
+      }
+    imgDOM.baseImg.addEventListener("click", () => {
+      imgDOM.baseImg.style.display = "inline-block";
+      imgDOM.evolvedImg.style.display = "none";
+      imgDOM.trueImg.style.display = "none";
+    });
+  
+    imgDOM.evolvedImg.addEventListener("click", () => {
+      imgDOM.baseImg.style.display = "none";
+      imgDOM.evolvedImg.style.display = "inline-block";
+      imgDOM.trueImg.style.display = "none";
+    });
+  
+    imgDOM.trueImg.addEventListener("click", () => {
+      imgDOM.baseImg.style.display = "none";
+      imgDOM.evolvedImg.style.display = "none";
+      imgDOM.trueImg.style.display = "inline-block";
+      });
+      </script>
+      </div>
   `;
 
   document.querySelector('.container').insertAdjacentHTML('beforeend', cardHTML);
-
-  const baseImg = document.getElementById("baseImg");
-  const evolvedImg = document.getElementById("evolvedImg");
-  const trueImg = document.getElementById("trueImg");
+/*
+  const imgDOM = {
+  baseImg: document.getElementById("baseImg");
+  evolvedImg: document.getElementById("evolvedImg");
+  trueImg: document.getElementById("trueImg");
+  }
 
   document.getElementById("basebutton").addEventListener("click", () => {
     baseImg.style.display = "inline-block";
@@ -41,6 +69,7 @@ function catCard(cat) {
       evolvedImg.style.display = "none";
       trueImg.style.display = "inline-block";
     });
+    */
   }
 
 export { catCard };

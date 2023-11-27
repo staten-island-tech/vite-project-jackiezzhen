@@ -24,8 +24,8 @@ const DOMSelectors = {
     all: document.getElementById("allCats"),
   };
 
-
-DOMSelectors.evolvedButton.addEventListener("click", () => {
+/*
+DOMSelectors.evolvedButton.addEventListener("click" , () => {
     catImg.src = `img/${cat.evolvedUrl}.webp`;
 
 });
@@ -33,5 +33,6 @@ DOMSelectors.evolvedButton.addEventListener("click", () => {
 DOMSelectors.trueButton.addEventListener("click", () => {
     catImg.src = `img/${cat.trueUrl}.webp`;
 });
+*/
 
 export {DOMSelectors}
