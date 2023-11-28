@@ -88,9 +88,12 @@ button {
   width: 100%;
   bottom: 0;;
 }
-.theme{
+#theme{
   position: fixed;
   left: 1vh;
   top: 1vh;
   z-index: 1;
+}
+.theme {
+  background-color: azure;
 }
