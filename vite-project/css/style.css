@@ -27,10 +27,6 @@ button {
   justify-content: center;
   margin: 0.07vh;
 }
-.allbtn:hover {
-  border-color: red;
-  border-width: 0.2vh;
-}
 .allbtn {
   position: fixed;
   top:2vh;
@@ -53,7 +49,8 @@ button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  place-items: center;
+  justify-content: center;
+  max-width: 100%;
 }
 
 .newcard {
@@ -66,15 +63,17 @@ button {
   flex-direction: column;
   place-items: center;
   padding: 0.3vh;
-  margin: 1vh;
+  margin: 1vh;  
   object-fit: cover;
 }
 .baseImg,
 .evolvedImg,
 .trueImg {
-  object-fit: cover;
+  object-fit: fill;
   max-width: 96%;
+  max-height: 96%;
   margin: 0.4vh;
+  height: 100%;
 }
 .imgbtn{
   place-items: center;

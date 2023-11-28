@@ -176,13 +176,13 @@ const allCats = [
   },
   {
     base: "Miyamoku Musashi",
-    evolved: "Legendary Musashi",
+    evolved: "Heroic Musashi",
     true: "Awakened Musashi",
     type: ["Relic"],
     attack: "Area",
     rarity: ["Legend Cats", "Special Cats"],
     baseUrl: "Miyamoku_musashi",
-    evolvedUrl: "Legendary_musashi",
+    evolvedUrl: "Heroic_musashi",
     trueUrl: "Awakened_musashi",
   },
 
