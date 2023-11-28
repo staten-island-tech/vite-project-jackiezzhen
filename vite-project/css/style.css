@@ -58,7 +58,7 @@ button {
 
 .newcard {
   width: 20vh;
-  height: 0 auto;
+  height: 35vh;
   border-radius: 10px;
   border: 2px solid #eee;
   background-color: #EEA;
@@ -67,9 +67,12 @@ button {
   place-items: center;
   padding: 0.3vh;
   margin: 1vh;
+  object-fit: cover;
 }
-.catImg {
-  object-fit: scale-down;
+.baseImg,
+.evolvedImg,
+.trueImg {
+  object-fit: cover;
   max-width: 96%;
   margin: 0.4vh;
 }
@@ -79,9 +82,9 @@ button {
   flex-direction: column;
   width: 100%;
 }
-#basebutton,
-#evolvedbutton,
-#truebutton{
+.basebutton,
+.evolvedbutton,
+.truebutton{
   width: 100%;
   bottom: 0;;
 }
