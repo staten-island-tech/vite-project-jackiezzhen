@@ -11,6 +11,7 @@ const allCats = [
     baseUrl: "Cat",
     evolvedUrl: "Macho_cat",
     trueUrl: "Mohawk_cat",
+    cost: "75¢",
   },
   {
     base: "Tank Cat",
@@ -22,6 +23,7 @@ const allCats = [
     baseUrl: "Tank_cat",
     evolvedUrl: "Wall_cat",
     trueUrl: "Eraser_cat",
+    cost: "150¢",
   },
   {
     base: "Axe Cat",
@@ -33,6 +35,7 @@ const allCats = [
     baseUrl: "Axe_cat",
     evolvedUrl: "Brave_cat",
     trueUrl: "Dark_cat",
+    cost: "300¢",
   },
   {
     base: "Gross Cat",
@@ -44,6 +47,7 @@ const allCats = [
     baseUrl: "Gross_cat",
     evolvedUrl: "Sexy_legs_cat",
     trueUrl: "Macho_legs_cat",
+    cost: "600¢",
   },
   {
     base: "Cow Cat",
@@ -55,6 +59,7 @@ const allCats = [
     baseUrl: "Cow_cat",
     evolvedUrl: "Giraffe_cat",
     trueUrl: "Lion_cat",
+    cost: "750¢",
   },
   {
     base: "Bird Cat",
@@ -66,6 +71,7 @@ const allCats = [
     baseUrl: "Bird_cat",
     evolvedUrl: "UFO_cat",
     trueUrl: "The_flying_cat",
+    cost: "975¢",
   },
   {
     base: "Fish Cat",
@@ -77,6 +83,7 @@ const allCats = [
     baseUrl: "Fish_cat",
     evolvedUrl: "Whale_cat",
     trueUrl: "Island_cat",
+    cost: "1200¢",
   },
   {
     base: "Lizard Cat",
@@ -88,6 +95,7 @@ const allCats = [
     baseUrl: "Lizard_cat",
     evolvedUrl: "Dragon_cat",
     trueUrl: "King_dragon_cat",
+    cost: "1500¢",
   },
   {
     base: "Titan Cat",
@@ -109,6 +117,7 @@ const allCats = [
     baseUrl: "Titan_cat",
     evolvedUrl: "Mythical_titan_cat",
     trueUrl: "Jamiera_cat",
+    cost: "1950¢",
   },
   //  Legend Cats/Special Cats
   {
@@ -116,14 +125,14 @@ const allCats = [
     evolved: "True Valkyrie Cat",
     true: "Holy Valkyrie Cat",
     type: ["Red",
-    "Floating",
-    "Black",
-    "Angel",
-    "Alien",
-    "Zombie",
-    "Aku",
-    "Relic",
-    "Traitless",],
+      "Floating",
+      "Black",
+      "Angel",
+      "Alien",
+      "Zombie",
+      "Aku",
+      "Relic",
+      "Traitless",],
     attack: "Area",
     rarity: ["Legend Cats", "Special Cats"],
     baseUrl:
@@ -132,6 +141,7 @@ const allCats = [
       "True_valkyrie_cat",
     trueUrl:
       "Holy_valkyrie_cat",
+    cost: "3000¢",
   },
   {
     base: "Bahamut Cat",
@@ -141,27 +151,29 @@ const allCats = [
     attack: "Area",
     rarity: ["Legend Cats", "Special Cats"],
     baseUrl: "Bahamut_cat",
-    evolvedUrl: "Crazy_bahamut_cat",
-    trueUrl: "Awwakened_bahamut_cat",
+    evolvedUrl: "Crazed_bahamut_cat",
+    trueUrl: "Awakened_bahamut_cat",
+    cost: "4500¢",
   },
   {
     base: "Ururun Wolf",
     evolved: "Ururun Cat",
     true: "Awakened Ururun",
     type: ["Red",
-    "Floating",
-    "Black",
-    "Angel",
-    "Alien",
-    "Zombie",
-    "Aku",
-    "Relic",
-    "Traitless",],
+      "Floating",
+      "Black",
+      "Angel",
+      "Alien",
+      "Zombie",
+      "Aku",
+      "Relic",
+      "Traitless",],
     attack: "Area",
     rarity: ["Legend Cats", "Special Cats"],
     baseUrl: "Ururun_wolf",
     evolvedUrl: "Ururun_cat",
     trueUrl: "Awakened_ururun",
+    cost: "4950¢",
   },
   {
     base: "Red Riding Mina",
@@ -173,6 +185,7 @@ const allCats = [
     baseUrl: "Red_riding_mina",
     evolvedUrl: "Crimson_mina",
     trueUrl: "Awakened_mina",
+    cost: "3900¢",
   },
   {
     base: "Miyamoku Musashi",
@@ -184,18 +197,8 @@ const allCats = [
     baseUrl: "Miyamoku_musashi",
     evolvedUrl: "Heroic_musashi",
     trueUrl: "Awakened_musashi",
+    cost: "4800¢",
   },
-
-
-
-
-
-
-
-
-
-
-  
   {
     base: "Jagando Jr.",
     evolved: "Lord of Ruin Jagando Jr.",
@@ -203,42 +206,54 @@ const allCats = [
     type: ["Traitless"],
     attack: "Area",
     rarity: ["Legend Cats", "Special Cats"],
-    baseUrl: "Jagando_Jr",
-    evolvedUrl: "Lord_of_ruin_jagando_jr",
+    baseUrl: "Jagando_jr.",
+    evolvedUrl: "Lord_of_ruin_jagando_jr.",
     trueUrl: null,
+    cost: "4200¢",
   },
   {
     base: "Urs & Fenrir",
     evolved: "Urs & Minka",
     true: "Awakened Urs",
-    type: ["Traitless"],
+    type: ["Red",
+    "Floating",
+    "Black",
+    "Angel",
+    "Alien",
+    "Zombie",
+    "Aku",
+    "Relic",
+    "Traitless",],
     attack: "Area",
     rarity: ["Legend Cats", "Special Cats"],
     baseUrl: "Urs_&_fenrir",
     evolvedUrl: "Urs_&_minka",
     trueUrl: "Awakened_urs",
+    cost: "4875¢",
   },
   {
     base: "Elder Mask Doron",
     evolved: "Cat Mask Doron",
     true: "Awakened Doron",
-    type: ["Traitless"],
+    type: ["Relic"],
     attack: "Area",
     rarity: ["Legend Cats", "Special Cats"],
     baseUrl: "Elder_mask_doron",
     evolvedUrl: "Cat_mask_doron",
     trueUrl: "Awakened_doron",
+    cost: "1800¢",
   },
   {
     base: "Elder Beast Naala",
     evolved: "Storm Beast Naala",
     true: "Awakened Naala",
-    type: ["Traitless"],
+    type: ["Relic"],
     attack: "Area",
     rarity: ["Legend Cats", "Special Cats"],
     baseUrl: "Elder_Beast_Naala",
     evolvedUrl: "Storm_beast_naala",
     trueUrl: "Awakened_naala",
+    cost: "4500¢",
   },
   //  Special Cats
   {
@@ -251,6 +266,7 @@ const allCats = [
     baseUrl: "Ninja_Cat",
     evolvedUrl: "Ninja_frog_cat",
     trueUrl: "Flying_ninja_cat",
+    cost: "",
   },
   {
     base: "Sumo Cat",
@@ -262,6 +278,7 @@ const allCats = [
     baseUrl: "Sumo_cat",
     evolvedUrl: "Madame_sumo",
     trueUrl: "Riceball_cat",
+    cost: "",
   },
   {
     base: "Samurai Cat",
@@ -273,6 +290,7 @@ const allCats = [
     baseUrl: "Samurai_Cat",
     evolvedUrl: "Sword_master_cat",
     trueUrl: "Elemental_duelist_cat",
+    cost: "",
   },
   {
     base: "Zombie Cat",
@@ -284,6 +302,7 @@ const allCats = [
     baseUrl: "Zombie_Cat",
     evolvedUrl: "Necromancer_cat",
     trueUrl: "Zombie_king_cat",
+    cost: "",
   },
   {
     base: "Cats in a Box",
@@ -295,6 +314,7 @@ const allCats = [
     baseUrl: "Cats_in_a_box",
     evolvedUrl: "Box_cats",
     trueUrl: "Heavy_assault_cat",
+    cost: "",
   },
   {
     base: "Boogie Cat",
@@ -306,6 +326,7 @@ const allCats = [
     baseUrl: "Boogie_cat",
     evolvedUrl: "Samba_cat",
     trueUrl: "Gato_amigo",
+    cost: "",
   },
   {
     base: "Skirt Cat",
@@ -317,6 +338,7 @@ const allCats = [
     baseUrl: "Skirt_cat",
     evolvedUrl: "Panties_cat",
     trueUrl: "The_white_rabbit",
+    cost: "",
   },
   {
     base: "Mr.",
@@ -328,6 +350,7 @@ const allCats = [
     baseUrl: "Mr",
     evolvedUrl: "Hyper_mr",
     trueUrl: "Ultimate_bondage_cat",
+    cost: "",
   },
   {
     base: "Bondage Cat",
@@ -339,6 +362,7 @@ const allCats = [
     baseUrl: "Bondage_cat",
     evolvedUrl: "Dom_cat",
     trueUrl: "Masochist_cat",
+    cost: "",
   },
   {
     base: "Tricycle Cat",
@@ -350,6 +374,7 @@ const allCats = [
     baseUrl: "Tricycle_cat",
     evolvedUrl: "Bicycle_cat",
     trueUrl: "Unicycle_cat",
+    cost: "",
   },
   //  Rare Cats
   {
@@ -362,6 +387,7 @@ const allCats = [
     baseUrl: "Pogo_cat",
     evolvedUrl: "Masai_cat",
     trueUrl: "Jiangshi_cat",
+    cost: "",
   },
   {
     base: "Wheel Cat",
@@ -373,6 +399,7 @@ const allCats = [
     baseUrl: "Wheel_Cat",
     evolvedUrl: "Solar_cat",
     trueUrl: "Chill_cat",
+    cost: "",
   },
   {
     base: "Salon Cat",
@@ -384,6 +411,7 @@ const allCats = [
     baseUrl: "Salon_cat",
     evolvedUrl: "Paris_cat",
     trueUrl: "Cyborg_cat",
+    cost: "",
   },
   {
     base: "Jurassic Cat",
@@ -395,6 +423,7 @@ const allCats = [
     baseUrl: "Jurassic_cat",
     evolvedUrl: "Jurassic_cat_sitter",
     trueUrl: "Catasaurus",
+    cost: "",
   },
   {
     base: "Viking Cat",
@@ -406,6 +435,7 @@ const allCats = [
     baseUrl: "Viking_cat",
     evolvedUrl: "Thor_cat",
     trueUrl: "Maximum_the_fighter",
+    cost: "",
   },
   {
     base: "Pirate Cat",
@@ -417,6 +447,7 @@ const allCats = [
     baseUrl: "Pirate_cat",
     evolvedUrl: "Captain_cat",
     trueUrl: "Dread_pirate_catley",
+    cost: "",
   },
   {
     base: "Thief Cat",
@@ -428,6 +459,7 @@ const allCats = [
     baseUrl: "Thief_Cat",
     evolvedUrl: "Phantom_thief_cat",
     trueUrl: "Goemon_cat",
+    cost: "",
   },
   {
     base: "Bishop Cat",
@@ -439,6 +471,7 @@ const allCats = [
     baseUrl: "Bishop_cat",
     evolvedUrl: "Monk_cat",
     trueUrl: "Sanzo_cat",
+    cost: "",
   },
   {
     base: "Wushu Cat",
@@ -450,6 +483,7 @@ const allCats = [
     baseUrl: "Wushu_Cat",
     evolvedUrl: "Sifu_cat",
     trueUrl: "Shigong_cat",
+    cost: "",
   },
   {
     base: "Kung Fu Cat X",
@@ -461,6 +495,7 @@ const allCats = [
     baseUrl: "Kung_fu_cat_x",
     evolvedUrl: "Drunken_master_cat_x",
     trueUrl: "Iron_claw_x",
+    cost: "",
   },
   //  Super Rare Cats
   {
@@ -473,6 +508,7 @@ const allCats = [
     baseUrl: "Hip_hop_cat",
     evolvedUrl: "Dancer_cat",
     trueUrl: "Cancan_cat",
+    cost: "",
   },
   {
     base: "Apple Cat",
@@ -484,6 +520,7 @@ const allCats = [
     baseUrl: "Apple_cat",
     evolvedUrl: "Icat",
     trueUrl: "Apple_catI",
+    cost: "",
   },
   {
     base: "Sushi Cat",
@@ -495,6 +532,7 @@ const allCats = [
     baseUrl: "Sushi_cat",
     evolvedUrl: "Sashimi_cat",
     trueUrl: "Roe_cat",
+    cost: "",
   },
   {
     base: "Bodhisattva Cat",
@@ -506,6 +544,7 @@ const allCats = [
     baseUrl: "Bodhisattva_cat",
     evolvedUrl: "Avalokitesvara_cat",
     trueUrl: "Megaphrodite",
+    cost: "",
   },
   {
     base: "Delinquent Cat",
@@ -517,6 +556,7 @@ const allCats = [
     baseUrl: "Delinquent_cat",
     evolvedUrl: "Angry_delinquent_cat",
     trueUrl: "Dark_Lazer",
+    cost: "",
   },
   {
     base: "Bath Cat",
@@ -528,6 +568,7 @@ const allCats = [
     baseUrl: "Bath_Cat",
     evolvedUrl: "Sexy_bath_cat",
     trueUrl: "Hyakutaro",
+    cost: "",
   },
   {
     base: "Juliet Cat",
@@ -539,6 +580,7 @@ const allCats = [
     baseUrl: "Juliet_Cat",
     evolvedUrl: "Mademoiselle_cat",
     trueUrl: "Cataur",
+    cost: "",
   },
   {
     base: "Weightlifter Cat",
@@ -550,6 +592,7 @@ const allCats = [
     baseUrl: "Weightlifter_cat",
     evolvedUrl: "Ring_girl_cat",
     trueUrl: "Iron_claw",
+    cost: "",
   },
   {
     base: "Figure Skating Cats",
@@ -561,6 +604,7 @@ const allCats = [
     baseUrl: "Figure_Skating_Cats",
     evolvedUrl: "Pairs_figure_skating_cats",
     trueUrl: "Dreamy_figure_skating_cats",
+    cost: "",
   },
   //  Uber Super Rare Cats
   {
@@ -573,6 +617,7 @@ const allCats = [
     baseUrl: "Baby_cat",
     evolvedUrl: "Adult_cat",
     trueUrl: "Evil_cat",
+    cost: "",
   },
   {
     base: "Kuu",
@@ -584,6 +629,7 @@ const allCats = [
     baseUrl: "Kuu",
     evolvedUrl: "Kuu_type_γ",
     trueUrl: "Kuu_type_Ω",
+    cost: "",
   },
   {
     base: "Sakura Sonic",
@@ -595,6 +641,7 @@ const allCats = [
     baseUrl: "Sakura_sonic",
     evolvedUrl: "Afterschool_sakura",
     trueUrl: "Sacred_blade_sakura",
+    cost: "",
   },
   {
     base: "Kai",
@@ -606,6 +653,7 @@ const allCats = [
     baseUrl: "Kai",
     evolvedUrl: "Kai_type_μ",
     trueUrl: "Divine_kai",
+    cost: "",
   },
   {
     base: "Coppermine",
@@ -617,6 +665,7 @@ const allCats = [
     baseUrl: "Coppermine",
     evolvedUrl: "Coppermine_type_κ",
     trueUrl: "Divine_coppermine",
+    cost: "",
   },
   {
     base: "Kalisa",
@@ -628,6 +677,7 @@ const allCats = [
     baseUrl: "Kalisa",
     evolvedUrl: "Kalisa_type_χ",
     trueUrl: "Divine_kalisa",
+    cost: "",
   },
   {
     base: "Sanada Yukimura",
@@ -639,6 +689,7 @@ const allCats = [
     baseUrl: "Sanada_yukimura",
     evolvedUrl: "Wargod_yukimura",
     trueUrl: "Immortal_yukimura",
+    cost: "",
   },
   {
     base: "Warlock and Pierre",
@@ -650,6 +701,7 @@ const allCats = [
     baseUrl: "Warlock_and_pierre",
     evolvedUrl: "Dark_merchant_babil",
     trueUrl: "Mad_doctor_klay",
+    cost: "",
   },
   {
     base: "Akira",
@@ -661,6 +713,7 @@ const allCats = [
     baseUrl: "Akira",
     evolvedUrl: "Shadow_akira",
     trueUrl: "Inferno_akira",
+    cost: "",
   },
   //  Legend Rare Cats
   {
@@ -673,6 +726,7 @@ const allCats = [
     baseUrl: "Akuma",
     evolvedUrl: "Shin_akuma",
     trueUrl: "Oni_akuma",
+    cost: "",
   },
   {
     base: "Black Zeus",
@@ -684,6 +738,7 @@ const allCats = [
     baseUrl: "Black_Zeus",
     evolvedUrl: "Black_Zeus_Mk_II",
     trueUrl: "Black_Zeus_Mk_III",
+    cost: "",
   },
   {
     base: "Doctor Heaven",
@@ -695,6 +750,7 @@ const allCats = [
     baseUrl: "Doctor_Heaven",
     evolvedUrl: "Doctor_Heaven_CC",
     trueUrl: "Doctor_Heaven_CC_Mk_II",
+    cost: "",
   },
   {
     base: "Emperor Cat",
@@ -706,6 +762,7 @@ const allCats = [
     baseUrl: "Emperor_Cat",
     evolvedUrl: "Emperor_Cat_CC",
     trueUrl: "Emperor_Cat_CC_Mk_II",
+    cost: "",
   },
   {
     base: "Gaia the Creator",
@@ -717,6 +774,7 @@ const allCats = [
     baseUrl: "Gaia_the_Creator",
     evolvedUrl: "Gaia_the_Supreme",
     trueUrl: "Gaia_the_Merciful",
+    cost: "",
   },
   {
     base: "Headmistress Jeanne",
@@ -728,6 +786,7 @@ const allCats = [
     baseUrl: "Headmistress_Jeanne",
     evolvedUrl: "Headmistress_Jeanne_CC",
     trueUrl: "Headmistress_Jeanne_CC_Mk_II",
+    cost: "",
   },
   {
     base: "High Lord Babel",
@@ -739,17 +798,19 @@ const allCats = [
     baseUrl: "High_Lord_Babel",
     evolvedUrl: "High_Lord_Babel_CC",
     trueUrl: "High_Lord_Babel_CC_Mk_II",
+    cost: "",
   },
   {
     base: "Kyosaka Nanaho",
-    evolved: "Kyosaka Nanaho & Cat",
-    true: "Kyosaka Nanaho & Cat CC",
-    type: ["Traitless"],
+    evolved: "True Kyosaka Nanaho",
+    true: null,
+    type: ["Metal"],
     attack: "Area",
     rarity: ["Legend Rare"],
-    baseUrl: "Kyosaka_Nanaho",
-    evolvedUrl: "Kyosaka_Nanaho_&_Cat",
-    trueUrl: "Kyosaka_Nanaho_&_Cat_CC",
+    baseUrl: "Kyosaka_nanaho",
+    evolvedUrl: "True_kyosaka_nanaho",
+    trueUrl: null,
+    cost: "4050¢",
   },
   {
     base: "Legeluga",
@@ -761,6 +822,7 @@ const allCats = [
     baseUrl: "Legeluga",
     evolvedUrl: "Legelan_Pasalan",
     trueUrl: "Awakened_Legeluga",
+    cost: "",
   },
   {
     base: "Lumina",
@@ -772,6 +834,7 @@ const allCats = [
     baseUrl: "Lumina",
     evolvedUrl: "Luminalia",
     trueUrl: "Lumina-Nyanko",
+    cost: "",
   },
   {
     base: "Mighty Kristul Muu",
@@ -783,6 +846,7 @@ const allCats = [
     baseUrl: "Mighty_Kristul_Muu",
     evolvedUrl: "Mighty_Glass_Cat",
     trueUrl: "Mighty_Kristul_Nurse",
+    cost: "",
   },
   {
     base: "Mushashi Miyamoto",
@@ -794,6 +858,7 @@ const allCats = [
     baseUrl: "Mushashi_Miyamoto",
     evolvedUrl: "Legendary_Mushashi",
     trueUrl: "Awakened_Mushashi",
+    cost: "",
   },
   {
     base: "Ushiwakamaru",
@@ -805,6 +870,7 @@ const allCats = [
     baseUrl: "Ushiwakamaru",
     evolvedUrl: "Ushiwakamaru_CC",
     trueUrl: "Ushiwakamaru_CC_Mk_II",
+    cost: "",
   },
   {
     base: "Wonder MOMOCO",
@@ -816,7 +882,8 @@ const allCats = [
     baseUrl: "Wonder_MOMOCO",
     evolvedUrl: "Cutie_MOMOCO",
     trueUrl: null,
+    cost: "",
   },
 ];
 
-export {allCats};
+export { allCats };

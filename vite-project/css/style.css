@@ -1,14 +1,12 @@
 body, html {
+  max-width:100%;
   margin: 3%;
   display: flex;
   place-items: center;
   justify-content: center;
-  background-color: #242424;
-  z-index: -1;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 }
@@ -38,11 +36,6 @@ button {
   margin: 1vh;
 }
 
-.label {
-  text-align: left;
-}
-
-/*catCard css*/
 .container {
   top: 10vh;
   position: relative;
@@ -54,10 +47,9 @@ button {
 }
 
 .newcard {
-  width: 20vh;
-  height: 35vh;
-  border-radius: 10px;
-  border: 2px solid #eee;
+  width: 21vh;
+  height: 37vh;
+  border-radius: 0.8vh;
   background-color: #EEA;
   display: flex;
   flex-direction: column;
@@ -65,27 +57,41 @@ button {
   padding: 0.3vh;
   margin: 1vh;  
   object-fit: cover;
+  border: 2px solid black;
 }
+p {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  margin: -0.5vh;
+  margin-top: 0 auto;
+  color: #0f0f0f;
+}
+
 .baseImg,
 .evolvedImg,
 .trueImg {
-  object-fit: fill;
-  max-width: 96%;
+  object-fit: cover;
   max-height: 96%;
-  margin: 0.4vh;
-  height: 100%;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 0.5vh;
+  justify-content: center;
+  margin-top: 0.6vh;
 }
 .imgbtn{
   place-items: center;
   display: flex;
   flex-direction: column;
   width: 100%;
+  font-size: 1.6vh;
+  margin: auto;
 }
 .basebutton,
 .evolvedbutton,
 .truebutton{
   width: 100%;
-  bottom: 0;;
+  max-width:100%;
 }
 #theme{
   position: fixed;
@@ -93,6 +99,9 @@ button {
   top: 1vh;
   z-index: 1;
 }
-.theme {
+.theme-color {
   background-color: azure;
+}
+.card-border {
+  border-color: #0f0f0f;
 }

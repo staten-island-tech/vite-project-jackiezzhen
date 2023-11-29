@@ -1,11 +1,13 @@
 function catCard(cat) {
   const cardHTML = `
     <div class="newcard">
+      
       <div class="catImg">
         <img class="baseImg" src="img/${cat.baseUrl}.webp" alt="Image/Error">
         <img class="evolvedImg" src="img/${cat.evolvedUrl}.webp" alt="Image/Error">
         <img class="trueImg" src="img/${cat.trueUrl}.webp" alt="Image/Error">
       </div>
+      <p>${cat.cost}</p>
       <div class="imgbtn">
         <button class="basebutton">${cat.base}</button>
         <button class="evolvedbutton">${cat.evolved}</button>

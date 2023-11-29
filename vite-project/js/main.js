@@ -24,15 +24,8 @@ const DOMSelectors = {
     all: document.getElementById("allCats"),
   };
 
-/*
-DOMSelectors.evolvedButton.addEventListener("click" , () => {
-    catImg.src = `img/${cat.evolvedUrl}.webp`;
-
-});
-
-DOMSelectors.trueButton.addEventListener("click", () => {
-    catImg.src = `img/${cat.trueUrl}.webp`;
-});
-*/
+  const theme = document.getElementById("theme")
+  theme.addEventListener("click", () => {
+      document.body.classList.toggle("theme-color")});
 
 export {DOMSelectors}
