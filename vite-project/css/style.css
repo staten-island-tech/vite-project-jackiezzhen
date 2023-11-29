@@ -11,9 +11,8 @@ body, html {
   color: rgba(255, 255, 255, 0.87);
 }
 
-/* button */
 button {
-  border-radius: 8px;
+  border-radius: 0.8vh;
   border: 0.01vh solid transparent;
   padding: 1vh;
   font-size: 1em;
