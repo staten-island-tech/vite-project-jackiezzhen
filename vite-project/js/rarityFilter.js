@@ -2,7 +2,12 @@ import { allCats } from "./allCats.js";
 import { catCard } from "./catCard.js";
 import { DOMSelectors } from "./main.js";
 
-// Normal Cats Filter
+rarity.forEach("button").addEventListener("click", function(event){
+const name = event.textContent;
+const catFilter = allCats.filter((cat) => cat.rarity.includes(name)).map((cat) => catCard(cat));
+DOMSelectors.container.insertAdjacentHTML("beforeend",catFilter.join(""));
+});
+/* // Normal Cats Filter
 DOMSelectors.normal.addEventListener("click", () => {
   const normalCats = allCats.filter((cat) => cat.rarity.includes("Normal Cats"));
   DOMSelectors.container.textContent = "";
@@ -56,4 +61,4 @@ DOMSelectors.legendRare.addEventListener("click", () => {
   DOMSelectors.container.textContent = "";
   const legendRareHTML = legendRare.map((cat) => catCard(cat));
   DOMSelectors.container.insertAdjacentHTML("beforeend",legendRareHTML.join(""));
-});
+}); */
