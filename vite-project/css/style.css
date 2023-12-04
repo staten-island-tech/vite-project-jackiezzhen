@@ -30,11 +30,16 @@ button {
   background-color:#0f0f0f;
   z-index: 1;
   border-radius: 1.2vh;
+  border: 0.01vh solid transparent;
+  border-color: azure;
 }
 .rarityButtons, .targetTypes {
   margin: 1vh;
 }
-
+.type, .rarity{
+  margin: -0.27vh;
+  border-color: red;
+}
 .container {
   top: 10vh;
   position: relative;

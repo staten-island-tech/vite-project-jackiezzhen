@@ -1,8 +1,17 @@
-import { allCats } from "./allCats.js";
-import { catCard } from "./catCard.js";
-import { DOMSelectors } from "./main.js";
+import { allCats } from "../js/allCats.js";
+import { catCard } from "../js/catCard.js";
+import { DOMSelectors } from "../js/main.js";
 
-// Red Filter
+DOMSelectors.type.forEach((button) => {
+  button.addEventListener("click", function (event) {
+    const name = event.target.textContent;
+    console.log(name);
+    const catFilter = allCats.filter((cat) => cat.type.includes(name));
+    DOMSelectors.container.textContent = "";
+    catFilter.forEach((cat) => catCard(cat));
+  });
+});
+/* // Red Filter
 DOMSelectors.red.addEventListener("click", () => {
   const redCats = allCats.filter((cat) => cat.type.includes("Red"));
   DOMSelectors.container.textContent = "";
@@ -87,5 +96,4 @@ DOMSelectors.traitless.addEventListener("click", () => {
 DOMSelectors.all.addEventListener("click", () => {
   DOMSelectors.container.textContent = "";
   allCats.forEach((cat) => catCard(cat));
-});
-
+});*/

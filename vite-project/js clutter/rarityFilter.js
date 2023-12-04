@@ -1,13 +1,20 @@
-import { allCats } from "./allCats.js";
-import { catCard } from "./catCard.js";
-import { DOMSelectors } from "./main.js";
 
-rarity.forEach("button").addEventListener("click", function(event){
-const name = event.textContent;
-const catFilter = allCats.filter((cat) => cat.rarity.includes(name)).map((cat) => catCard(cat));
-DOMSelectors.container.insertAdjacentHTML("beforeend",catFilter.join(""));
+
+
+import { allCats } from "../js/allCats.js";
+import { catCard } from "../js/catCard.js";
+import { DOMSelectors } from "../js/main.js";
+
+DOMSelectors.rarity.forEach((button) => {
+  button.addEventListener("click", function (event) {
+    const name = event.target.textContent;
+    console.log(name);
+    const catFilter = allCats.filter((cat) => cat.rarity.includes(name));
+    DOMSelectors.container.textContent = "";
+    catFilter.forEach((cat) => catCard(cat));
+  });
 });
-/* // Normal Cats Filter
+/*  // Normal Cats Filter
 DOMSelectors.normal.addEventListener("click", () => {
   const normalCats = allCats.filter((cat) => cat.rarity.includes("Normal Cats"));
   DOMSelectors.container.textContent = "";
@@ -61,4 +68,4 @@ DOMSelectors.legendRare.addEventListener("click", () => {
   DOMSelectors.container.textContent = "";
   const legendRareHTML = legendRare.map((cat) => catCard(cat));
   DOMSelectors.container.insertAdjacentHTML("beforeend",legendRareHTML.join(""));
-}); */
+});  */
