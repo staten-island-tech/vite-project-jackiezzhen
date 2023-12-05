@@ -3,26 +3,10 @@ import { catCard } from "./catCard.js";
 
 const DOMSelectors = {
   container: document.querySelector(".container"),
-  normal: document.getElementById("normalCats"),
-  special: document.getElementById("specialCats"),
-  rare: document.getElementById("rareCats"),
-  superRare: document.getElementById("superRare"),
-  uberRare: document.getElementById("uberRare"),
-  legend: document.getElementById("legendCats"),
-  legendRare: document.getElementById("legendRare"),
-  red: document.getElementById("red"),
-  floating: document.getElementById("floating"),
-  black: document.getElementById("black"),
-  metal: document.getElementById("metal"),
-  angel: document.getElementById("angel"),
-  alien: document.getElementById("alien"),
-  zombie: document.getElementById("zombie"),
-  aku: document.getElementById("aku"),
-  relic: document.getElementById("relic"),
-  traitless: document.getElementById("traitless"),
   all: document.getElementById("allCats"),
   rarity: document.querySelectorAll(".rarityButtons"),
   type: document.querySelectorAll(".targetTypes"),
+  imgBtn: document.querySelectorAll(".imgBtn"),
 };
 //  Theme Changer
 const theme = document.getElementById("theme");
@@ -62,6 +46,29 @@ DOMSelectors.type.forEach((button) => {
       });
     }
   });
+});
+
+// Cycle through the Evolutions
+document.querySelector(".container").addEventListener("click", (event) => {
+  const button = event.target;
+  const card = button.closest('.newcard');
+  const baseImg = card.querySelector('.baseImg');
+  const evolvedImg = card.querySelector('.evolvedImg');
+  const trueImg = card.querySelector('.trueImg');
+
+  if (button.classList.contains("basebutton")) {
+    baseImg.style.display = "inline-block";
+    evolvedImg.style.display = "none";
+    trueImg.style.display = "none";
+  } else if (button.classList.contains("evolvedbutton")) {
+    baseImg.style.display = "none";
+    evolvedImg.style.display = "inline-block";
+    trueImg.style.display = "none";
+  } else if (button.classList.contains("truebutton")) {
+    baseImg.style.display = "none";
+    evolvedImg.style.display = "none";
+    trueImg.style.display = "inline-block";
+  }
 });
 
 export { DOMSelectors };
