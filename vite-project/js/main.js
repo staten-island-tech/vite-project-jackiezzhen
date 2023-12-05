@@ -51,10 +51,10 @@ DOMSelectors.type.forEach((button) => {
 // Cycle through the Evolutions
 document.querySelector(".container").addEventListener("click", (event) => {
   const button = event.target;
-  const card = button.closest('.newcard');
-  const baseImg = card.querySelector('.baseImg');
-  const evolvedImg = card.querySelector('.evolvedImg');
-  const trueImg = card.querySelector('.trueImg');
+  const card = button.closest(".newcard");
+  const baseImg = card.querySelector(".baseImg");
+  const evolvedImg = card.querySelector(".evolvedImg");
+  const trueImg = card.querySelector(".trueImg");
 
   if (button.classList.contains("basebutton")) {
     baseImg.style.display = "inline-block";
