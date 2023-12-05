@@ -30,7 +30,7 @@ theme.addEventListener("click", () => {
   document.body.classList.toggle("theme-color");
 });
 
-// Print All Cards
+// Print All Cards Initially
 allCats.forEach((cat) => catCard(cat));
 
 // Filter Cards by Rarity
@@ -40,7 +40,7 @@ DOMSelectors.rarity.forEach((button) => {
     console.log(name);
     const catFilter = allCats.filter((cat) => cat.rarity.includes(name));
     DOMSelectors.container.textContent = "";
-    catFilter.forEach((cat) => catCard(cat));
+    catFilter.map((cat) => catCard(cat));
   });
 });
 //Filter Cards by Type
@@ -52,13 +52,13 @@ DOMSelectors.type.forEach((button) => {
     if (name !== "All") {
       const catFilter = allCats.filter((cat) => cat.type.includes(name));
       DOMSelectors.container.textContent = "";
-      catFilter.forEach((cat) => catCard(cat));
+      catFilter.map((cat) => catCard(cat));
     }
     // Display All Cats with All Button
     else {
       DOMSelectors.all.addEventListener("click", () => {
         DOMSelectors.container.textContent = "";
-        allCats.forEach((cat) => catCard(cat));
+        allCats.map((cat) => catCard(cat));
       });
     }
   });

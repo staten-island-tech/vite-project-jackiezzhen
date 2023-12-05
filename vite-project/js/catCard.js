@@ -2,7 +2,7 @@ function catCard(cat) {
   const cardHTML = `
     <div class="newcard">
       <div class="catImg">
-        <img class="baseImg" src="img/${cat.baseUrl}.webp" alt="Image/Error">
+        <img class="baseImg" src="public/img/${cat.baseUrl}.webp" alt="Image/Error">
         <img class="evolvedImg" src="img/${cat.evolvedUrl}.webp" alt="Image/Error">
         ${cat.trueUrl != null ? `<img class="trueImg" src="img/${cat.trueUrl}.webp" alt="Image/Error"></button>` : ""}
       </div>
